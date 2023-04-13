@@ -24,6 +24,7 @@ alert(`prezzo ridotto under 18: ${prezzoScontatoMinori  + "€"}`);
     alert(`prezzo ridotto over 65: ${prezzoScontatoAnziani  + "€"}`);
 }
 
+prezzoScontatoMinori.tofixed(2);
 
 // prezzo intero
 alert(`prezzo intero: ${prezzoSenzaSconti  + "€"}`);
