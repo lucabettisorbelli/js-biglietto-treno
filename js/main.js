@@ -4,7 +4,8 @@ let etaUtente = prompt ("quanti anni hai?");
 KmDaFare = parseInt(KmDaFare);
 etaUtente = parseInt(etaUtente)
 
-//prezzo biglietto 
+//prezzo biglietto senza sconti
 
-let prezzoBiglietto
-
+let prezzoPerKm = 0.21;
+let prezzoBiglietto = prezzoPerKm * KmDaFare;
+alert(`il prezzo del biglietto è: ${prezzoBiglietto + "€"}`)
