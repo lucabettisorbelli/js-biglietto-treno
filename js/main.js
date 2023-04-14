@@ -1,13 +1,24 @@
 let KmDaFare = prompt ("quanti Kilometri vuoi percorrere?");
+KmDaFare = parseInt(KmDaFare);
+
+
+if (isNaN(KmDaFare)) {
+    alert("inserisci un numero corretto")
+}
+
 let etaUtente = prompt ("quanti anni hai?");
 
-KmDaFare = parseInt(KmDaFare);
 etaUtente = parseInt(etaUtente);
+
+if (isNaN(etaUtente)) {
+    alert("inserisci un numero corretto")
+}
 
 //prezzo biglietto senza sconti
 
 let prezzoPerKm = 0.21;
 let prezzoSenzaSconti = prezzoPerKm * KmDaFare;
+
 
 // sconti 
 
